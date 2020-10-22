@@ -9,20 +9,16 @@
 - 1.6mm logic PCB
 - **Total = 15.2mm**
 
-| 12mm + 3mm screw    | 5mm + 10mm screw    |
-|---------------------|---------------------|
-| 3mm acrylic         | 3mm acrylic         |
-| 4mm spacer          | 2mm of 4mm spacer   |
-| 1.6mm LCD PCB       | **= 5mm screw**     |
-| 3.4mm of 5mm spacer | 1.8mm of 4mm spacer |
-| **= 12mm screw**    | 1.6mm LCD PCB       |
-| 1.4mm of 5mm spacer | 5mm spacer          |
-| 1.6mm logic PCB     | 1.6mm logic PCB     |
-| **= 3mm screw**     | **= 10mm screw**    |
-
-Selected: **5mm + 10mm screw**
-
-Rationale: easier to unscrew top screw only to replace acrylic if needed -- other combo will require access to spacer in between LCD and logic PCBs.
+| 12mm + 3mm screw    |
+|---------------------|
+| 3mm acrylic         |
+| 4mm spacer          |
+| 1.6mm LCD PCB       |
+| 3.4mm of 5mm spacer |
+| **= 12mm screw**    |
+| 1.4mm of 5mm spacer |
+| 1.6mm logic PCB     |
+| **= 3mm screw**     |
 
 ---
 
