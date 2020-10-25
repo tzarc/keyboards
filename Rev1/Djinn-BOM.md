@@ -1,5 +1,23 @@
 # Djinn BOM
 
+## Build Notes
+
+During the build, the connectors for the USB-C, the TRS jack, and the LCD 1x09 connector **need to be mounted on the side opposite to the rest of the surface-mount components**. For ease of the build, it's best to populate and solder these onto the board last. The 1x09 LCD connector can also be soldered with the LCD screwed into the board with standoffs, in order to ensure proper alignment.
+
+Most "jellybean" components can be swapped out for whichever you've got available -- 100nF capacitors are so ubiquitous that there's no need to buy this specific part. Any other 0805 100nF capacitor will likely suffice.
+
+The "IC (Current Limiter)" chip has two alternatives that perform the same function, with the same pinout, and are drop-in replacements of each other. Depending on stock levels at LCSC, one might not be available (as was the case when the Djinn was designed), so either can be used. Please only purchase one type -- you don't need both. These chips do have poor performance at low currents, i.e. the standard <500mA USB current range. As a result, if you push the LEDs too hard (full white, for instance) they'll flicker and sometimes "brown out" -- this is 100% intentional and is not a sign that something is wrong with your build -- this is a safety mechanism to prevent pulling too much current from the USB port. Sane limits have already been set in firmware to prevent over-current scenarios. In future, once the firmware matures, the limit will be dynamically controlled based on the USB-C power delivery state -- this is not yet implemented, but the hardware has been designed to do so.
+
+The "Connector (ST-Link)" **is optional** and is not required -- this is a debugging port for an ST-Link. If you choose to do so, it can be mounted with the pins straddling the edge of the PCB.
+
+There are a few sets of solder bridges that need to be filled in to get certain aspects working:
+
+* USB-C CC Line solder bridges (solder none or one pair only):
+    * (Optional) 5.1k -- 2 separate solder bridges that connect 5.1k resistors to the USB-C CC lines in order to "ask" for 3.0A from the upstream port. This is not guaranteed to automatically allow 3.0A of current, and the firmware will eventually deal with this correctly.
+    * (Optional) USBPD -- 2 separate solder bridges that connect the MCU to the USB-C CC lines in order to enable USBPD functionality. This is not yet built into the firmware and for all intents and purposes should not be assumed to work. Leave these unsoldered unless you know exactly what you're doing.
+    * If neither of the above pairs of solder bridges have been soldered, the Djinn will work in standard USB2.0 mode without attempting to run at a higher current than 500mA.
+* LCD_Left / LCD_Right -- 9 separate solder bridges that connect the LCD connector to the normal lines required to actually drive the LCD. You'll note that these are populated in the same location on both sides of the board -- only the side being built should have the solder bridges filled in. Left-hand should have LCD_Left soldered, right-hand should have LCD_Right soldered.
+
 ## Components listing
 
 | Type                            | Count (Total) | Count (Per PCB) | Value       | Footprint | Part Number          | Link                                                                                                                                                                                    |

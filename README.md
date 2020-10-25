@@ -2,7 +2,7 @@
 
 The Djinn is a 64-key split keyboard -- dual 4x7 with a 4-key thumb cluster. It also has a 5-way tactile switch under the thumb.
 
-Extravagance-wise, it's got audio, encoder support, per-key RGB and RGB underglow... and a 240x320 LCD.
+Extravagance-wise, it's got audio, encoder support, per-key RGB and RGB underglow... and a 240x320 LCD. And for the safety conscious, it has ESD protection, transient voltage suppression, and polarity protection on both the USB connector as well as the split transport.
 
 It also runs [QMK](https://qmk.fm/)! It's just.... not in the main repo, yet.
 
