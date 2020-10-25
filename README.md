@@ -13,3 +13,7 @@ Unfortunately, the Djinn isn't currently supported in QMK's master, as it's runn
 The QMK firmware branch required to build the Djinn can be found here: [tzarc/qmk_firmware/generated-chibios-master-upgrade](https://github.com/tzarc/qmk_firmware/tree/generated-chibios-master-upgrade).
 
 The code required for the Djinn itself can be found here: [tzarc/qmk_build/tzarc-djinn](https://github.com/tzarc/qmk_build/tree/master/tzarc-djinn).
+
+## Rev1
+
+BOM: [Click](Rev1/Djinn-BOM.md)
