@@ -1,5 +1,7 @@
 # Djinn BOM
 
+## Components listing
+
 | Type                            | Count (Total) | Count (Per PCB) | Value       | Footprint | Part Number          | Link                                                                                                                                                                                    |
 |---------------------------------|---------------|-----------------|-------------|-----------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Capacitor (MLCC)                | 110           | 55              | 100nF       | 0805      | CL21F104ZBCNNNC      | https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL21F104ZBCNNNC_C1760.html                                                         |
@@ -17,7 +19,6 @@
 | IC (MCU)                        | 2             | 1               | -           | LQFP-64   | STM32G474RET6        | https://au.mouser.com/ProductDetail/STMicroelectronics/STM32G474RET6?qs=%2Fha2pyFaduhBp7B0yN03ycB%252BZ%252BLXFeacrURrEXR6i%252Bv3eck5WgVsdQ%3D%3D                                      |
 | IC (SPI FRAM)                   | 2             | 1               | 64kbit/8kB  | SOIC-8    | MB85RS64PNF-G-JNERE1 | https://lcsc.com/product-detail/FRAM_FUJITSU-MB85RS64PNF-G-JNERE1_C8741.html                                                                                                            |
 | IC (Voltage Regulator)          | 2             | 1               | 3.3V        | SOT-23-5  | AP2127K-3.3TRG1      | https://lcsc.com/product-detail/Dropout-Regulators-LDO_Diodes-Incorporated-AP2127K-3-3TRG1_C156285.html                                                                                 |
-| Knob (Rotary Encoder)           | 2             | 1               | -           | -         | -                    | https://www.aliexpress.com/item/32802067713.html                                                                                                                                        |
 | LCD                             | 2             | 1               | -           | 1x09      | 2.2" No Touch        | https://www.aliexpress.com/item/4000219159401.html                                                                                                                                      |
 | MOSFET                          | 6             | 3               | -           | SOT-23-3  | AO3401A              | https://lcsc.com/product-detail/MOSFET_UMW-Youtai-Semiconductor-Co-Ltd-AO3401A_C347476.html                                                                                             |
 | Piezo Buzzer                    | 2             | 1               | -           | 16x16mm   | KLJ-1625             | https://lcsc.com/product-detail/Buzzers_KELIKING-KLJ-1625_C201041.html                                                                                                                  |
@@ -39,3 +40,18 @@
 | Switch (Rotary Encoder)         | 2             | 1               | -           | -         | EC11N1525404         | https://lcsc.com/product-detail/Coded-Rotary-Switches_ALPS-Electric-EC11N1525404_C470748.html                                                                                           |
 | Transistor (Pre-biased)         | 2             | 1               | -           | SOT-23-3  | MMUN2133LT1G         | https://lcsc.com/product-detail/Digital-Transistors_ON-Semiconductor-MMUN2133LT1G_C86182.html                                                                                           |
 | Transistor (Pre-biased)         | 6             | 3               | -           | SOT-23-3  | MMUN2233LT1G         | https://lcsc.com/product-detail/Transistors-NPN-PNP_ON-Semiconductor-MMUN2233LT1G_C86932.html                                                                                           |
+
+
+## Fasteners / Hardware
+
+| Type                  | Count (Total) | Count (Per side) | Model        | Link                                               |
+|-----------------------|---------------|------------------|--------------|----------------------------------------------------|
+| Knob (Rotary Encoder) | 2             | 1                | 25x15.5x6mm  | https://www.aliexpress.com/item/32802067713.html   |
+| Screw                 | 26            | 13               | M3x3 D7x0.7  | https://www.aliexpress.com/item/32998579840.html   |
+| Screw                 | 26            | 13               | M3x8 D7x0.7  | https://www.aliexpress.com/item/32998579840.html   |
+| Screw                 | 8             | 4                | M3x12 D7x0.7 | https://www.aliexpress.com/item/32998579840.html   |
+| Screw                 | 8             | 4                | M3x5 D7x0.7  | https://www.aliexpress.com/item/32998579840.html   |
+| Standoff              | 52 (or 60)    | 26 (or 30)       | M3x3x4.2     | https://www.aliexpress.com/item/4000153040875.html |
+| Standoff              | 8             | 4                | M3x12x4.2    | https://www.aliexpress.com/item/4000153040875.html |
+| Standoff              | 8             | 4                | M3x4x4.2     | https://www.aliexpress.com/item/4000153040875.html |
+| Washer                | 26            | 13               | M3           | https://www.aliexpress.com/item/33000267180.html   |
