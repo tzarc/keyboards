@@ -17,3 +17,5 @@ The code required for the Djinn itself can be found here: [tzarc/qmk_build/tzarc
 ## Rev1
 
 BOM: [Click](Rev1/Djinn-BOM.md)
+
+![Djinn PCB](https://i.imgur.com/tDgQIRd.png)
