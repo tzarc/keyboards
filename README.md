@@ -10,9 +10,13 @@ It also runs [QMK](https://qmk.fm/)! It's just.... not in the main repo, yet.
 
 Unfortunately, the Djinn isn't currently supported in QMK's master, as it's running on hardware that's a bit too new. It's also intended to be used as a testbed for QMK features as well as one of the major drivers for upgrading ChibiOS. In due course it'll hit QMK master, but for now it needs to live outside.
 
-The QMK firmware branch required to build the Djinn can be found here: [tzarc/qmk_firmware/generated-chibios-master-upgrade](https://github.com/tzarc/qmk_firmware/tree/generated-chibios-master-upgrade).
+The QMK firmware branch required to build the Djinn can be found here: [tzarc/qmk_firmware/djinn](https://github.com/tzarc/qmk_firmware/tree/djinn).
 
-The code required for the Djinn itself can be found here: [tzarc/qmk_build/tzarc-djinn](https://github.com/tzarc/qmk_build/tree/master/tzarc-djinn).
+Building can be done with:
+
+```
+make tzarc/djinn:default
+```
 
 ## Rev1
 
