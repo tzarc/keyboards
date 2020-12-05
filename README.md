@@ -20,6 +20,14 @@ make tzarc/djinn:default
 
 ## Rev1
 
+Issues:
+
+* RGB current limiting has been reported to be problematic -- some builds have reported non-functional RGB without overriding the code to enable 1500mA limits
+  * Measurements taken do not show that the RGB pulls anything close to 1500mA, unknown if there's a manufacturing issue or component selection issue
+* 5-way tactile switch is too close to the thumb row and pressing in the down direction can't be achieved very easily
+
+**Rev1** recommendation: wait for **Rev2!**
+
 BOM: [Click](Rev1/Djinn-BOM.md)
 
 ![Djinn PCB](https://i.imgur.com/tDgQIRd.png)
