@@ -176,4 +176,4 @@ cq.exporters.export(kb.render(
     ), "../dxf/plate_pcb.dxf")
 cq.exporters.export(kb.render(keyswitchOutlines=True), "../dxf/keyswitch_outlines.dxf")
 cq.exporters.export(kb.render(keyswitchCuts=True), "../dxf/keyswitch_cuts.dxf")
-cq.exporters.export(kb.render(outline=True, spacer=True, lcdSpacerCuts=True, lcdPinCuts=True, edgeLedCuts=True, usbCut=True, splitCut=True), "../dxf/spacer.dxf")
+cq.exporters.export(kb.render(outline=True, spacer=True, lcdSpacerCuts=True, lcdPinCuts=True, edgeLedCuts=True, usbCut=True, splitCut=True), "../dxf/acrylic_spacer.dxf")
