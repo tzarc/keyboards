@@ -163,6 +163,17 @@ outline=kb.render(
            kicadScript=True
         )
 cq.exporters.export(kb.render(outline=True), "../dxf/outline.dxf")
+cq.exporters.export(kb.render(outline=True, drills=True), "../dxf/outline+drills.dxf")
+cq.exporters.export(kb.render(outline=True, drills=True, resetCut=True), "../dxf/base_pcb.dxf")
+cq.exporters.export(kb.render(
+    outline=True,
+    keyswitchCuts=True,
+    drills=True,
+    lcdPlateCuts=True,
+    lcdPinCuts=True,
+    encoderCut=True,
+    dpadCut=True
+    ), "../dxf/plate_pcb.dxf")
 cq.exporters.export(kb.render(keyswitchOutlines=True), "../dxf/keyswitch_outlines.dxf")
 cq.exporters.export(kb.render(keyswitchCuts=True), "../dxf/keyswitch_cuts.dxf")
 cq.exporters.export(kb.render(outline=True, spacer=True, lcdSpacerCuts=True, lcdPinCuts=True, edgeLedCuts=True, usbCut=True, splitCut=True), "../dxf/spacer.dxf")

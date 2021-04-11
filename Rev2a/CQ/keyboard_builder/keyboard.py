@@ -39,7 +39,7 @@ class keyboard:
             "lcdPinCutoutFillet": 1,
             "encoderX": 7.65, # in keyswitch units
             "encoderY": 4, # in keyswitch units
-            "encoderCutX": 17,
+            "encoderCutX": 13,
             "encoderCutY": 13,
             "encoderCutFillet": 0.5,
             "encoderKnobDiameter": 26.2,
