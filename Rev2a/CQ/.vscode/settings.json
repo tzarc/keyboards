@@ -1,0 +1,11 @@
+{
+    "python.pythonPath": "E:\\miniconda3\\envs\\cqgui\\python.exe",
+    "python.condaPath": "E:\\miniconda3\\Scripts\\conda.exe",
+    "python.terminal.activateEnvironment": true,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "terminal.integrated.shell.windows": "C:\\windows\\sysnative\\cmd.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "/K",
+        "CALL E:\\miniconda3\\Scripts\\activate cqgui"
+    ]
+}

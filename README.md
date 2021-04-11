@@ -2,7 +2,7 @@
 
 The Djinn is a 64-key split keyboard -- dual 4x7 with a 4-key thumb cluster. It also has a 5-way tactile switch under the thumb.
 
-Extravagance-wise, it's got audio, encoder support, per-key RGB and RGB underglow... and a 240x320 LCD. And for the safety conscious, it has ESD protection, transient voltage suppression, and polarity protection on both the USB connector as well as the split transport.
+Extravagance-wise, it's got audio, encoder support, per-key RGB and RGB underglow... and a 240x320 LCD. And for the safety conscious, it has ESD protection, transient voltage suppression, and polarity protection on both the USB connector as well as the split transport connector (USB-C for rev2+, TRS for rev1).
 
 It also runs [QMK](https://qmk.fm/)! It's just.... not in the main repo, yet.
 
@@ -15,10 +15,23 @@ The QMK firmware branch required to build the Djinn can be found here: [tzarc/qm
 Building can be done with:
 
 ```
-make tzarc/djinn:default
+make tzarc/djinn/rev2:default
 ```
 
+## Rev2a
+
+BOM: [Click](Rev2a/Djinn-BOM.md)
+
+Fixes:
+
+* 5-way tactile moved further away from thumb row
+* Different current limiters used for RGB that are actually functional in the required range
+
+![Djinn Rev2a PCB](https://i.imgur.com/D2tkZZf.png)
+
 ## Rev1
+
+BOM: [Click](Rev1/Djinn-BOM.md)
 
 Issues:
 
@@ -26,10 +39,6 @@ Issues:
   * Measurements taken do not show that the RGB pulls anything close to 1500mA, unknown if there's a manufacturing issue or component selection issue
 * 5-way tactile switch is too close to the thumb row and pressing in the down direction can't be achieved very easily
 
-**Rev1** recommendation: wait for **Rev2!**
-
-BOM: [Click](Rev1/Djinn-BOM.md)
-
-![Djinn PCB](https://i.imgur.com/tDgQIRd.png)
-![Djinn PCB](https://i.imgur.com/HIBmkHB.jpg)
-![Djinn PCB](https://i.imgur.com/NRcNDYy.jpg)
+![Djinn Rev1 PCB](https://i.imgur.com/tDgQIRd.png)
+![Djinn Rev1 PCB](https://i.imgur.com/HIBmkHB.jpg)
+![Djinn Rev1 PCB](https://i.imgur.com/NRcNDYy.jpg)

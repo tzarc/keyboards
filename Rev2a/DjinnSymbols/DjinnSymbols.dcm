@@ -1,0 +1,32 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 5Way-Tactile_K1-1506DN-01
+F ~
+$ENDCMP
+#
+$CMP 74HCT1G125
+D Single Buffer Gate Tri-State, Low-Voltage CMOS
+K Single Gate Buff Tri-State LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP AZC199-04S
+D Very low capacitance ESD protection diode, 4 data-line, SOT-23-6
+K usb ethernet sim card video
+F https://datasheet.lcsc.com/szlcsc/1912111437_AMAZING-AZC199-04S-R7G_C356821.pdf
+$ENDCMP
+#
+$CMP LCD-ILI9341-2.2in
+F ~
+$ENDCMP
+#
+$CMP MT9700
+D Adjustable Current Limited Load Switch, SOT-23-5
+K Limit USB Active High
+$ENDCMP
+#
+$CMP OLED-SSD1306-128x64
+F ~
+$ENDCMP
+#
+#End Doc Library

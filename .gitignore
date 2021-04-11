@@ -3,6 +3,13 @@
 .DS_Store
 ._*
 
+# Python Crap
+__pycache__
+
+############################################################
+# Script Output
+*-backup
+
 ############################################################
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
 # Format documentation: http://kicad-pcb.org/help/file-formats/
@@ -30,3 +37,7 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# Generated graphics
+*.png
+*.svg

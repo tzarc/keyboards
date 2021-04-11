@@ -1,4 +1,4 @@
-# Djinn BOM
+# Djinn Rev1 BOM
 
 ## Build Notes
 
