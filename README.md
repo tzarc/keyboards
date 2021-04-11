@@ -2,11 +2,11 @@
 
 The Djinn is a 64-key split keyboard -- dual 4x7 with a 4-key thumb cluster. It also has a 5-way tactile switch under the thumb.
 
+![Djinn](https://i.imgur.com/xyOn5MO.jpg)
+
 Extravagance-wise, it's got audio, encoder support, per-key RGB and RGB underglow... and a 240x320 LCD. And for the safety conscious, it has ESD protection, transient voltage suppression, and polarity protection on both the USB connector as well as the split transport connector (USB-C for rev2+, TRS for rev1).
 
 It also runs [QMK](https://qmk.fm/)! It's just.... not in the main repo, yet.
-
-![Djinn](https://i.imgur.com/iZmEG2e.jpg)
 
 Unfortunately, the Djinn isn't currently supported in QMK's master, as it's running on hardware that's a bit too new. It's also intended to be used as a testbed for QMK features as well as one of the major drivers for upgrading ChibiOS. In due course it'll hit QMK master, but for now it needs to live outside.
 
@@ -27,11 +27,15 @@ Fixes:
 * 5-way tactile moved further away from thumb row
 * Different current limiters used for RGB that are actually functional in the required range
 
+![Djinn Rev2a PCB](https://i.imgur.com/FwygDrP.jpg)
+
 ![Djinn Rev2a PCB](https://i.imgur.com/D2tkZZf.png)
 
 ## Rev1
 
 BOM: [Click](Rev1/Djinn-BOM.md)
+
+![Djinn](https://i.imgur.com/iZmEG2e.jpg)
 
 Issues:
 
