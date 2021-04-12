@@ -1,5 +1,13 @@
 # Djinn Rev2a BOM
 
+## PCB Manufacture
+
+I've had some reports that JLCPCB have thrown on a $15.20 USD extra charge due to too many instances of routing.
+
+I (@tzarc) wasn't charged, but there are now reports on Discord that JLCPCB are charging extra.
+
+If you've been given an extra charge, feel free to ask them why you've been charged more than others with the same design... and let @tzarc know so we can keep track of whether other PCB manufacturers should be recommended instead of JLCPCB.
+
 ## Build Notes
 
 **There are two resistors that are used to determine whether the PCB is a left-hand or a right-hand board -- R23 and R25. Populate only one; R23 for a left-hand board, R25 for a right-hand board.**
