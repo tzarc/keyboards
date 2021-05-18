@@ -2,7 +2,7 @@
 
 The Djinn is a 64-key split keyboard -- dual 4x7 with a 4-key thumb cluster. It also has a 5-way tactile switch under the thumb.
 
-![Djinn](https://i.imgur.com/xyOn5MO.jpg)
+![Djinn](https://i.imgur.com/ArSjkv8.jpg)
 
 Extravagance-wise, it's got audio, encoder support, per-key RGB and RGB underglow... and a 240x320 LCD. And for the safety conscious, it has ESD protection, transient voltage suppression, and polarity protection on both the USB connector as well as the split transport connector (USB-C for rev2+, TRS for rev1).
 
@@ -30,6 +30,8 @@ Fixes:
 ![Djinn Rev2a PCB](https://i.imgur.com/FwygDrP.jpg)
 
 ![Djinn Rev2a PCB](https://i.imgur.com/D2tkZZf.png)
+
+![Djinn Rev2a Built](https://i.imgur.com/xyOn5MO.jpg)
 
 ## Rev1
 
