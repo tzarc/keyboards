@@ -1,0 +1,49 @@
+********************************************************************************
+** NOTE:
+**
+** The MT9700 (or DIO7002) aren't set up for use below 400mA or so.
+** It should _mostly_ work at values below this, but it's out of spec.
+**
+** Future revisions should look at replacing this IC with a TPS2553 or
+** equivalent.
+**
+********************************************************************************
+
+Overall system-level calculations:
+
+Current limit (A) = 6800 (ohms) / Rlim (ohms)
+
+For 500mA:
+     Rlim = 13.7k
+     Ilim = 6800/13700
+          = 496mA
+
+For 1500mA:
+     Rlim = 13.7k || 6.8k
+     Ilim = 6800 / 4544
+          = 1496mA
+
+For 3000mA (MT9700 is limited to 2A):
+     Rlim = 13.7k || 6.8k || 13.7k
+     Ilim = 6800/3412
+          = 1992mA
+
+
+----
+
+Reservation: 120mA for MCU + LCD backlight
+
+For 130mA/side, WS2812:
+                Rlim = 52.3k
+                Ilim = 6800/52300
+                     = 130mA each side
+
+For 630mA/side, WS2812:
+                Rlim = 52.3k || 13.7k
+                Ilim = 6800 / 10856
+                     = 626mA each side
+
+For 880mA/side (dual 1A), WS2812:
+                Rlim = 52.3k || 13.7k || 27k
+                Ilim = 6800 / 7742
+                     = 878mA each side

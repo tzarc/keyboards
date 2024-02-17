@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Ghoul")(type "KiCad")(uri "${KIPRJMOD}/Ghoul.kicad_sym")(options "")(descr ""))
+)

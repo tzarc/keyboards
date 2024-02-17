@@ -1,5 +1,0 @@
-(sym_lib_table
-  (lib (name DjinnSymbols)(type Legacy)(uri ${KIPRJMOD}/../DjinnSymbols/DjinnSymbols.lib)(options "")(descr ""))
-  (lib (name reversible-kicad-symbols)(type Legacy)(uri ${KIPRJMOD}/../reversible-kicad/reversible-kicad-symbols.lib)(options "")(descr ""))
-  (lib (name Plate-rescue)(type Legacy)(uri ${KIPRJMOD}/ExtraBoard-Plate-rescue.lib)(options "")(descr ""))
-)
