@@ -20,6 +20,7 @@ __pycache__
 *.bck
 *.kicad_pcb-bak
 *.sch-bak
+*.kicad_sch_old
 *~
 _autosave-*
 *.tmp
@@ -41,3 +42,6 @@ fp-info-cache
 # Generated graphics
 *.png
 *.svg
+
+# Keep jlc production files
+!**/production_files/*

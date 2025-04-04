@@ -10,13 +10,13 @@ repofind() {
 }
 
 # Remove executable flag on all files
-repofind -type f | parallel "chmod -x '{1}'"
+repofind -type f | xargs -I{} chmod -x '{}'
 
 # Make sure scripts are executable
-repofind -iname '*.sh' -or -iname '*.py' | parallel "chmod +x '{1}'"
+repofind -iname '*.sh' -or -iname '*.py' | xargs -I{} chmod +x '{}'
 
 # Convert all KiCad files to be in Unix format
-repofind -type f -and \( -iname '*.kicad_*' -or -name 'fp-lib-table' -or -name 'sym-lib-table' -or -iname '*.md' -or -iname '*.svg' -or -iname '*.html' \) | parallel "dos2unix '{1}'"
+repofind -type f -and \( -iname '*.kicad_*' -or -name 'fp-lib-table' -or -name 'sym-lib-table' -or -iname '*.md' -or -iname '*.svg' -or -iname '*.html' \) | xargs -I{} dos2unix '{}'
 
 # Install this script as a pre-commit hook if it's not already present
 if [[ ! -L "${SCRIPT_DIR}/.git/hooks/pre-commit" ]] ; then
