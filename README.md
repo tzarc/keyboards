@@ -15,3 +15,9 @@ The [Djinn](Djinn/README.md) is a 64-key split keyboard -- dual 4x7 with a 4-key
 The [Ghoul](Ghoul/README.md) is a Planck-like development board for QMK, using SparkFun MicroMod for hot-swap MCU capability in a `2x4x5=40` layout with encoder and RGB OLED, per-key RGB.
 
 ![Ghoul](https://i.imgur.com/T8wp7cE.jpg)
+
+## Kobold
+
+The [Kobold](Kobold/README.md) is an ortho 4x4 macropad, as a replacement for a bm16s with modern hardware.
+
+![Kobold](https://i.imgur.com/R8nDodO.jpg)

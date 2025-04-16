@@ -1,0 +1,26 @@
+Horizontal
+
+15.3
+21.6
+Horiz 1-1 = 18.5
+
+52.4
+58.7
+Horiz 1-4 = 55.5
+
+18.5*3 = 55.5
+so 18.5mm spacing
+
+
+Vertical
+
+14.4
+20.7
+Vert 1-1 = 17.5
+
+49.3
+55.6
+Vert 1-4 = 52.5
+
+17.5*3 = 52.5
+so 17.5mm spacing

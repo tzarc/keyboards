@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NUF2221W1T2G
+D Bidirectional ESD Protection Diode, SOT-23-6
+K usb ethernet
+F https://www.onsemi.com/pub/Collateral/NUF2221W1T2-D.PDF
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,154 @@
+(footprint "Gateron-KS33-2u-Stabilizer-Cutout"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(layer "Dwgs.User")
+		(uuid "f2671b1c-b5fd-4cc1-b48c-165d1fbd5387")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2U Stabilizer"
+		(at 0 -7.9375 0)
+		(layer "Dwgs.User")
+		(uuid "7e9b4421-fc58-4b81-a584-7f6858b3211f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da8f53c7-7106-4f45-ba7d-06d078732daa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc748e82-bce5-4268-b10f-becf6b075c13")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "628134f1-6c06-460c-bc09-a095c1c6f549")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -19.05 9.525)
+		(end -19.05 -9.525)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "aa94498c-1c8b-4d66-9ca8-696365a97870")
+	)
+	(fp_line
+		(start 19.05 -9.525)
+		(end -19.05 -9.525)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e808fcda-71c3-4988-928d-2777fd3e4fed")
+	)
+	(fp_line
+		(start 19.05 9.525)
+		(end -19.05 9.525)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "28f8438f-ddd2-4dbc-b686-23dba361ccdd")
+	)
+	(fp_line
+		(start 19.05 9.525)
+		(end 19.05 -9.525)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "1f47ac56-50e8-4492-ae03-e70d787d8cb7")
+	)
+	(fp_rect
+		(start -8.75 9.8)
+		(end -15.25 -6.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "3040a2ef-54df-4806-a5f3-e1ad90850672")
+	)
+	(fp_rect
+		(start 8.75 9.8)
+		(end 15.25 -6.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "348982f8-51a2-48bd-adad-27bcfd7874b2")
+	)
+	(fp_text user "Stabilizer Wire"
+		(at 0 9.525 0)
+		(unlocked yes)
+		(layer "Eco1.User")
+		(uuid "f26d64f5-749b-4726-baa4-b5924a544fd4")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(model "./Gateron-KS33-Socket.step"
+		(offset
+			(xyz 5.025 -7.925 -3.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)
